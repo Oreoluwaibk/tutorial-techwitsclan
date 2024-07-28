@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+
+    <style>
+        /* div {
+            background-color: #f8f8f8;
+            padding: 8px;
+        }
+
+        h3{
+            font-weight: 700;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 24px;
+        }
+
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+        }
+
+        .danger {
+            color: #ff0000;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        #info {
+            color: #008024;
+            font-size: 14px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .mychoice p {
+            font-weight: 900;
+            
+        } */
+        .box {
+            background-color: antiquewhite;
+            height: 300px;
+            
+        }
+
+        body::-webkit-scrollbar, .box::-webkit-scrollbar{
+            display: none;
+        }
+
+        .boc {
+            font-size: 16px;
+            font-weight: 500;
+            transition: all linear 0.7s;
+        }
+
+        .boc:hover{
+            cursor: pointer;
+            font-style: italic;
+            font-weight: 800;
+            font-size: 18px;   
+        }
+
+        .box-1{
+            background-color: #008024;
+            position: relative;
+        }
+        .cancel{
+            position: absolute;
+            top: 0;
+            right: 10px;
+        }
+
+        .box-2{
+            background-color: orange;
+           
+        }
+
+        .box-3{
+            background-color: blue;
+            position: static; 
+        }
+
+        .box-4{
+            background-color: #ff0000;
+        }
+       
+        .all {
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        1rem - 16px
+        inline styling - styling of element by using an attribute called styles on the element
+
+        internal styling
+
+        external styling
+
+        define element
+
+        classes
+        id
+        element - div p a 
+        pseudo-classes
+
+        ids should always be unique
+
+        combinators
+
+
+        postining
+
+        box-model theory  - states that all element in your HTML are arranged in boxes with margin, border and padding
+
+        margin
+        border
+        padding
+        content
+
+        padding - space between border and the content
+        margin = space after the border to the next element
+        border - space between your margin and padding
+
+        relative - positon the element in respect to the document.
+        absolute - position element away from it's original position and gives a position in respect to the parent element that has a relative position or the body of the document
+
+        fixed - position element away from it's original position, but it give it a new position in respiect to the body and fixes to a fixed point in the document
+
+        static -  normal document postion in the order of arrangement
+
+        sticky - it give it a new position in respiect to the body and fixes to a fixed point in the document, but does not position element away from it's original position.
+
+        https://www.w3schools.com/css/css_pseudo_classes.asp
+
+        combinators: 
+        + - will get the first sibling
+        ~ - will get the all sibling
+        > will get the all children
+        space - will get the all children
+        
+        
+        +,~,> 
+    -->
+    <div class="box">
+      <div class="box-1 all"></div>
+      <div class="box-2 all"></div>
+      <div class="box-3 all"></div>
+      <div class="box-4 all"></div>
+      <div class="box-1 all"></div>
+      <div class="box-2 all"></div>
+      <div class="box-3 all"></div>
+      <div class="box-4 all"></div>
+      <div class="box-1 all"></div>
+      <div class="box-2 all"></div>
+      <div class="box-3 all"></div>
+      <div class="box-4 all"></div>
+      <div class="box-1 all"></div>
+      <div class="box-2 all"></div>
+      <div class="box-3 all"></div>
+      <div class="box-4 all"></div>
+    </div>
+    
+   
+</body>
+
+</html>

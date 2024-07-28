@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your specified</title>
+        <meta name="description" content="A new html document" >
+        <link rel="stylesheet" href="">
+
+        <style>
+            th, td {
+                border: 1px solid black;
+                display: block;
+            }
+            body {
+                height: 150vh;
+            }
+            nav {
+                position: sticky;
+                height: 100px;
+                left: 0;
+                top:0;
+                width: 100%;
+            }
+
+            .absolute{
+                width: 200px;
+                height: 200px;
+                background-color: burlywood;
+                padding: 20px;
+                position: relative;
+            }
+
+            .x {
+                position: absolute;
+                right: 10px;
+                top: 1px;
+            }
+        </style>
+    </head>
+
+
+
+    <body>
+        <nav style="display: flex;align-items: center; justify-content: space-between;">
+            <p>Home</p>
+            <p>About</p>
+            <p>contacts</p>
+        </nav>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit ut aliquid sed necessitatibus, aliquam voluptates, perspiciatis nam maiores error quas sit delectus! Est quisquam quod, at dolorem ipsam eveniet.</p>
+
+            <div class="absolute">
+                <p>I am a boy</p>
+                <p class="x"> x</p>
+            </div>
+        </div>
+    </body>
+</html>

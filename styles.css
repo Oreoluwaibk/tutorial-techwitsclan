@@ -1,0 +1,146 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h3, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    color: hsl(14, 45%, 36%);
+}
+h5 {
+    color: hsl(332, 51%, 32%);
+}
+p, h5, li, td{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    padding-left: 15px;
+    margin: 6px;
+}
+p, li {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+hr {
+    width: 100%;
+    border: 0.1px solid hsl(30, 18%, 87%);
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bottom-contain {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+.description, p, li, td{
+    font-size: 12px;
+    color: hsl(30, 10%, 34%);
+}   
+
+
+.image{
+    border-radius: 8px;
+}
+
+.ingredients {
+    margin-top: 10px;
+}
+.ingredients li{
+    padding: 3px 0;
+}
+
+.instructions ol {
+    padding-left: 14px;
+    margin: 0;
+}
+
+.instructions li {
+    padding: 6px 0;
+}
+
+.inner-container{
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nutrition tr {
+    display: flex;
+
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+
+tr td:nth-child(2){
+    font-weight: 600;
+    color:hsl(14, 45%, 36%);
+}
+
+td {
+    width: 50%;
+    display: inline-block;
+}
+
+.outer-container{
+    background-color: hsl(30, 54%, 90%);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    padding: 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.preparation{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.preparation li{
+    font-weight: 400;
+    padding: 3px 0;
+}
+
+
+
